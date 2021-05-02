@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -30,106 +30,54 @@
     </header>
     <section class='text-center notification' id="notify">Appointment Added to <code>localStorage</code> ✔️</section>
     <div class="container-fluid">
-      <!-- Timeblocks go here -->
-      <div class="row">
-        <!-- time -->
+      <div id="hour-9" class="row time-block">
         <div class="col-1">9am</div>
-        <!-- text -->
         <textarea class="col-10" name="activity" id="hour-09" cols="30" rows="2"></textarea>
-        <!-- save button -->
-        <button class="btn btn-primary col-1" style="font-size: 3rem"> go </button>
+        <button class="saveBtn btn-primary col-1" style="font-size: 3rem"> go </button>
       </div>
-    </div>
-    <div class="container-fluid">
-      <!-- Timeblocks go here -->
-      <div class="row">
-        <!-- time -->
+      <div id="hour-10" class="row time-block">
         <div class="col-1">10am</div>
-        <!-- text -->
         <textarea class="col-10" name="activity" id="hour-09" cols="30" rows="2"></textarea>
-        <!-- save button -->
-        <button class="btn btn-primary col-1" style="font-size: 3rem"> go </button>
+        <button class="saveBtn btn-primary col-1" style="font-size: 3rem"> go </button>
       </div>
-    </div>
-    <div class="container-fluid">
-      <!-- Timeblocks go here -->
-      <div class="row">
-        <!-- time -->
+      <div id="hour-11" class="row time-block">
         <div class="col-1">11am</div>
-        <!-- text -->
         <textarea class="col-10" name="activity" id="hour-09" cols="30" rows="2"></textarea>
-        <!-- save button -->
-        <button class="btn btn-primary col-1" style="font-size: 3rem"> go </button>
+        <button class="saveBtn btn-primary col-1" style="font-size: 3rem"> go </button>
       </div>
-    </div>
-    <div class="container-fluid">
-      <!-- Timeblocks go here -->
-      <div class="row">
-        <!-- time -->
+      <div id="hour-12" class="row time-block">
         <div class="col-1">12pm</div>
-        <!-- text -->
         <textarea class="col-10" name="activity" id="hour-09" cols="30" rows="2"></textarea>
-        <!-- save button -->
-        <button class="btn btn-primary col-1" style="font-size: 3rem"> go </button>
+        <button class="saveBtn btn-primary col-1" style="font-size: 3rem"> go </button>
       </div>
-    </div>
-    <div class="container-fluid">
-      <!-- Timeblocks go here -->
-      <div class="row">
-        <!-- time -->
+      <div id="hour-13" class="row time-block">
         <div class="col-1">1pm</div>
-        <!-- text -->
         <textarea class="col-10" name="activity" id="hour-09" cols="30" rows="2"></textarea>
-        <!-- save button -->
-        <button class="btn btn-primary col-1" style="font-size: 3rem"> go </button>
+        <button class="saveBtn btn-primary col-1" style="font-size: 3rem"> go </button>
       </div>
-    </div>
-    <div class="container-fluid">
-      <!-- Timeblocks go here -->
-      <div class="row">
-        <!-- time -->
+      <div id="hour-14" class="row time-block">
         <div class="col-1">2pm</div>
-        <!-- text -->
         <textarea class="col-10" name="activity" id="hour-09" cols="30" rows="2"></textarea>
-        <!-- save button -->
-        <button class="btn btn-primary col-1" style="font-size: 3rem"> go </button>
+        <button class="saveBtn btn-primary col-1" style="font-size: 3rem"> go </button>
       </div>
-    </div>
-    <div class="container-fluid">
-      <!-- Timeblocks go here -->
-      <div class="row">
-        <!-- time -->
+      <div id="hour-15" class="row time-block">
         <div class="col-1">3pm</div>
-        <!-- text -->
         <textarea class="col-10" name="activity" id="hour-09" cols="30" rows="2"></textarea>
-        <!-- save button -->
-        <button class="btn btn-primary col-1" style="font-size: 3rem"> go </button>
+        <button class="saveBtn btn-primary col-1" style="font-size: 3rem"> go </button>
       </div>
-    </div>
-    <div class="container-fluid">
-      <!-- Timeblocks go here -->
-      <div class="row">
-        <!-- time -->
         <div class="col-1">4pm</div>
-        <!-- text -->
         <textarea class="col-10" name="activity" id="hour-09" cols="30" rows="2"></textarea>
-        <!-- save button -->
-        <button class="btn btn-primary col-1" style="font-size: 3rem"> go </button>
+        <button class="saveBtn btn-primary col-1" style="font-size: 3rem"> go </button>
       </div>
-    </div>
-    <div class="container-fluid">
-      <!-- Timeblocks go here -->
-      <div class="row">
-        <!-- time -->
+      <div id="hour-17" class="row time-block">
         <div class="col-1">5pm</div>
-        <!-- text -->
         <textarea class="col-10" name="activity" id="hour-09" cols="30" rows="2"></textarea>
-        <!-- save button -->
-        <button class="btn btn-primary col-1" style="font-size: 3rem"> go </button>
+        <button class="saveBtn btn-primary col-1" style="font-size: 3rem"> go </button>
       </div>
     </div>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
